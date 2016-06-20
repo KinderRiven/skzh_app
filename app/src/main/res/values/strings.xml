@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">zooSystem</string>
+    <string name="title_activity_admin_login">admin_login</string>
+</resources>

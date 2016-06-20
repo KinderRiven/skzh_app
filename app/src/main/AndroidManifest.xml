@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kinderriven.zoosystem">
+    <!--
+        物联网13-1 韩书楷
+        山科智慧炫酷无敌..（此处省略long long int个形容词）网关APP
+        KinderRiven
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/zs"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".admin_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tourist_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".animal_manager"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".animal_status"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".animal_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".app_setting"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
